@@ -31,10 +31,10 @@ chat_history = []
 def db_connection():
     return psycopg2.connect(
             host="localhost",
-            database="su_bot_data",
-            user="postgres",
-            port="5432",
-            password="tiger")
+            database="su",
+            user="post",
+            port="54",
+            password="xyz")
 
 @app.route("/")
 def login_page():
