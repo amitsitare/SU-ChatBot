@@ -42,11 +42,11 @@ np.save("cluster_centers.npy", kmeans.cluster_centers_)
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    host="localhost",
-    database="su_bot_data",
-    user="postgres",
-    port="5432",
-    password="tiger"
+    host="local",
+    database="su",
+    user="postg",
+    port="542",
+    password="xyx"
 )
 cur = conn.cursor()
 
